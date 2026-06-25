@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サポート - アノレシピ</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      color: #1c1c1e;
+      background: #f2f2f7;
+      padding: 24px 16px 64px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 32px 28px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .updated {
+      font-size: 13px;
+      color: #8e8e93;
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      font-size: 14px;
+      line-height: 1.75;
+      color: #3a3a3c;
+    }
+    ul, ol {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+    li { margin-bottom: 4px; }
+    .question {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 4px;
+      font-size: 14px;
+      color: #1c1c1e;
+    }
+    .contact {
+      background: #f2f2f7;
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-top: 10px;
+    }
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>サポート</h1>
+    <p class="updated">アノレシピ ／ 最終更新日：2026年6月23日</p>
+
+    <p>アノレシピは、音声を録音するだけでレシピを自動生成できるアプリです。ご利用中にお困りのことがありましたら、本ページのよくある質問をご確認いただくか、下記の連絡先までお問い合わせください。</p>
+
+    <h2>お問い合わせ</h2>
+    <p>ご質問・ご要望・不具合のご報告は、以下のメールアドレスまでお寄せください。個人開発で運営しているため、返信までお時間をいただく場合があります。</p>
+    <div class="contact">
+      <p>メール：<a href="mailto:anorecipe@gmail.com">anorecipe@gmail.com</a></p>
+      <p style="margin-top:6px;">お問い合わせの際は、ご利用の iPhone の機種・iOS のバージョン・発生した状況を添えていただくとスムーズです。</p>
+    </div>
+
+    <h2>アプリの使い方</h2>
+    <ol>
+      <li>録音画面でボタンを押してレシピの内容を声で話します。</li>
+      <li>録音を停止すると、音声がバックエンドで処理され、自動的にレシピが生成されます。</li>
+      <li>生成が完了するとプッシュ通知でお知らせし、レシピが一覧に追加されます。</li>
+    </ol>
+    <p style="margin-top:8px;">録音には、氏名・住所・電話番号などの個人情報や機密情報を含めないようご注意ください。</p>
+
+    <h2>よくある質問</h2>
+
+    <p class="question">レシピの生成に失敗します／完了しません</p>
+    <p>通信環境の良い場所で、もう一度録音してお試しください。録音が長すぎる・ファイルが大きすぎる場合や、音声がうまく認識できなかった場合は生成に失敗することがあります。失敗した場合はプッシュ通知でお知らせします。なお、録音データは処理の成否にかかわらず一定時間内に自動的に削除されるため、失敗時は新しく録音し直していただく必要があります。</p>
+
+    <p class="question">プッシュ通知が届きません</p>
+    <p>iPhone の「設定」アプリ →「通知」→「アノレシピ」で通知が許可されているかご確認ください。また、機内モードや通信状況により遅延する場合があります。</p>
+
+    <p class="question">マイクが使えません／録音できません</p>
+    <p>「設定」アプリ →「アノレシピ」→「マイク」がオンになっているかご確認ください。マイクへのアクセスはレシピ録音時のみ使用します。</p>
+
+    <p class="question">アカウントの作成・サインインについて</p>
+    <p>メールアドレスとパスワード、または「Sign in with Apple」でご利用いただけます。セキュリティ強化のため、認証アプリによる多要素認証（TOTP）も設定できます。</p>
+
+    <p class="question">パスワードを忘れました</p>
+    <p>サインイン画面の「パスワードを忘れた場合」から、登録したメールアドレス宛に届く確認コードを使ってパスワードを再設定できます。</p>
+
+    <p class="question">確認コードのメールが届きません</p>
+    <p>迷惑メールフォルダをご確認ください。それでも届かない場合は、メールアドレスに誤りがないかご確認のうえ、コードの再送をお試しください。</p>
+
+    <p class="question">アカウントとデータを削除したい</p>
+    <p>アプリ内の設定メニュー（画面左上の人物アイコン）から「アカウントを削除」を選択すると、アカウント情報・レシピデータ・登録済みのデバイストークンなどが削除されます。削除されるデータの詳細はプライバシーポリシーをご覧ください。</p>
+
+    <p class="question">録音に周囲の方の声が入る場合</p>
+    <p>レシピの録音時に周囲の方の声が含まれることがあります。録音を行う際は、あらかじめ周囲の方に録音する旨をお伝えし、必要な同意を得てからご利用ください。</p>
+
+    <h2>動作環境</h2>
+    <p>iOS 18.6 以降の iPhone。レシピの生成にはインターネット接続が必要です。</p>
+
+    <h2>プライバシーポリシー</h2>
+    <p>個人情報の取り扱いについては、プライバシーポリシーをご確認ください。</p>
+    <p><a href="https://utsurane.github.io/anoreshipi-privacy-policy/">プライバシーポリシーを表示</a></p>
+
+    <h2>運営者</h2>
+    <p>本アプリは個人開発者が運営しています。お問い合わせは <a href="mailto:anorecipe@gmail.com">anorecipe@gmail.com</a> までお願いいたします。</p>
+  </div>
+</body>
+</html>
